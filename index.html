@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor Reais -> Dólar</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1>Conversor Reais → Dólar</h1>
+    <div class="container">
+        <div class="sub-container">
+            <h2>Reais</h2>
+            <input onchange="valorRecido" class="box" id="input1" type="number">
+        </div>
+        
+        <button onclick="alertValor()" class="button">Converter</button>
+        
+        <div class="sub-container">
+            <h2>Dolar</h2>
+            <div class="box" id="response"></div>
+        </div>
+    </div>
+
+
+    <script src="./index.js"></script>
+</body>
+</html>
